@@ -1,0 +1,134 @@
+body {
+  /*background: linear-gradient(to bottom right, CornflowerBlue, DeepSkyBlue);*/
+  background: radial-gradient(rgb(80, 80, 80) 25%, rgb(180, 180, 180) 75%);
+  font-family: 'Titillium Web', sans-serif;
+}
+
+/*mise en page : container de largeur fixe centré*/
+
+#container {
+  max-width: 760px;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 3px;
+  border: 1px solid #555;
+}
+
+header {
+	margin: auto;
+	padding-bottom: 10px;
+	max-width: 85%;
+	border-bottom: 2px solid black;
+}
+
+h1 {
+	margin 0;
+	padding-top: 10px;
+}
+
+nav {
+  word-spacing: 3em;
+  margin: auto;
+  border-radius: 10px;
+  padding: 4px;
+  max-width: 75%;
+  background-color: lightgray;
+}
+
+nav a {
+	color: #527A9F;
+	text-decoration: none;
+}
+
+nav a:hover {
+	font-weight: bold;
+}
+
+header, #profil {
+  text-align: center;
+}
+
+#profil {
+	margin-bottom: 60px;
+}
+
+#experiences,
+#challenges,
+#portfolio {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#profilpic {
+	margin-top: 10px;
+	overflow: hidden;
+}
+
+#profil img {
+	margin: 10px;
+  /*défini la largeur de la page (à préférer à la hauteur)*/
+  width: 600px;
+  margin-top: -50px;
+  margin-bottom: -140px;
+}
+
+#monhistoire p {
+	color: #555;
+	font-size: 1.1em;
+	font-style: italic;
+}
+
+#profil cite {
+  display: block;
+  text-align: right;
+  font-weight: bold;
+}
+
+section {
+	margin-bottom: 50px;
+}
+
+#portfolio div {
+  text-align: center;
+}
+
+#images a {
+  text-decoration: none;
+}
+
+#images img {
+  width: 150px;
+  border-style: groove;
+  border-width: 1px;
+  border-color: black;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+footer {
+  height: 100px;
+  background: radial-gradient(DarkOrange , Coral);
+  text-align: center;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+footer img {
+  width: 40px;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+footer img:hover {
+	/*Test*/
+	background-color: red;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+img[title="Contact"] {
+	background-color: gold;
+}
