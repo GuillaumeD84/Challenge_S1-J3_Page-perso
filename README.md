@@ -10,3 +10,6 @@ Type : HTML | CSS
 
 ## Objectif
 Créer sa page personnelle !
+
+## Exemple
+![example](docs/pageperso.png)
