@@ -6,6 +6,7 @@ Guillaume DURAND
 Promo : Explorer  
 S1-J3 | 04/10/2017
 
+Formateur : Lucie  
 Type : HTML | CSS
 
 ## Objectif
